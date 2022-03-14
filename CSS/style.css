@@ -371,7 +371,9 @@ display: block;
   width: 100%;
   display:flex;
   color: black;
+  
 }
+#ide1{margin-bottom: 2rem;}
 
 #pro_div1, #pro_div2, #pro_div3{
   width: 33.3%;
