@@ -38,7 +38,7 @@ z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 10;
+    z-index: 1;
 
   }
 
@@ -96,6 +96,7 @@ z-index: 1;
   border-radius: 4px 0 4px 4px;
   display: none;
   margin-left: -4rem;
+  z-index: 100;
   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	        animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
   
@@ -120,6 +121,7 @@ z-index: 1;
   padding: 1.5rem;
   border-radius: 4px 0 4px 4px;
   display: none;
+  z-index: 1000000000;
   margin-left: -15.4rem;
   -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
 	        animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
