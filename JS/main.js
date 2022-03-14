@@ -28,7 +28,7 @@ function test(){
  
   if(testScroll != 0 ){
 
-    logo.style.top = "1rem"
+    logo.style.top = "0"
     logo.style.left ='1rem'
     logo.style.transform = "translate(0,0)"
     screensize(logo)
