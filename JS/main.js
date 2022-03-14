@@ -22,7 +22,7 @@ function test(){
   let testScroll = window.scrollY
 
   console.log("Window é:" + testScroll)
-  console.log("div é:" + div.y)
+  console.log("div é:" + div.offsetTop)
   console.log(div.height)
   console.log(`Logo esta : ${logo.y}`)
  
@@ -36,10 +36,7 @@ function test(){
     link2.style ="color:white"
     link3.style ="color:white"
     link4.style ="color:white"
-    line1.style.background = "#FFF"
-    line2.style.background = "#FFF"
-    line3.style.background = "#FFF"
-    
+ 
   }   
     else{
       logo.style.top = ""
@@ -50,10 +47,7 @@ function test(){
       link2.style ="color:black"
       link3.style ="color:black"
       link4.style ="color:black"
-      line1.style.background = "black"
-      line2.style.background = "black"
-      line3.style.background = "black"
-  
+      
     }
 
     if(div.y < -(div.height-80)){
@@ -61,9 +55,7 @@ function test(){
       link2.style ="color:black"
       link3.style ="color:black"
       link4.style ="color:black"
-      line1.style.background = "black"
-      line2.style.background = "black"
-      line3.style.background = "black"
+     
   
     }
 
@@ -197,7 +189,7 @@ else{
   line2.style.transform = "translateX(150%)"
   line3.style.transform = "rotate(-45deg)"
   menu.style.transform = "translateX(0px)"
-logo.style.top = "1rem"
+logo.style.top = "0"
   logo.style.left ='1rem'
   logo.style.transform = "translate(0,0)"
   body.style.overflow = "hidden"
