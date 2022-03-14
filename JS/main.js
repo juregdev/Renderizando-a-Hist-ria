@@ -56,7 +56,7 @@ function test(){
   
     }
 
-    if(div.y < -(div.height - 48)){
+    if(div.y < -(div.height)){
       link.style ="color:black"
       link2.style ="color:black"
       link3.style ="color:black"
