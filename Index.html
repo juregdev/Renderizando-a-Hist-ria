@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./IMG/Logo/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <a href="Index.html"><img id="logoIMG" src="./IMG/Logo/logo.png" alt=""></a>
+    </div>
+    <div id="menu">
+      <nav>
+        <ul>
+          <li><span><a id="link1" href="Index.html">Home</a></span></li>
+          <li><span><a id='link2' href="./CONTENT/contact.html.">Contato</a></li>
+          <li id="link3"><a href="">Aulas</a></span>
+            <ul id="drop01">
+              <li><a href="">Renascimento</a> </li>
+              <li><a href="">Imperialismo</a> </li>
+              <li> <a href="">Primeira Guerra Mundial</a> </li>
+              <li><a href="">Crise de 1929</a></li>
+              <li><a href="">Era Vargas</a></li>
+            </ul>
+          </li>
+          <li id="link4"><span><a href=""> Simulados</a></span>
+            <ul id="drop">
+              <li><a href="">Enem</a></li>
+              <li><a href="">Unicamp</a></li>
+              <li><a href="">Fuvest</a></li>
+            </ul>
+
+
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+
+    <div id="burguer" onclick="menuMobile()">
+      <div id="line1"></div>
+      <div id="line2"></div>
+      <div id="line3"></div>
+    </div>
+  </header>
+
+  <div id="menuMobile">
+    <nav>
+      <ul>
+        <li><span><a id="link1" href="Index.html">Home</a></span></li>
+        <li><span><a id='link2' href="./CONTENT/contact.html.">Contato</a></li>
+        <li id="link3" onclick="dropItemMenu(this)"><a href="#">Aulas</a></span>
+          <ul id="drop01Mobile">
+            <li><a href="">Renascimento</a> </li>
+            <li><a href="">Imperialismo</a> </li>
+            <li> <a href="">Primeira Guerra Mundial</a> </li>
+            <li><a href="">Crise de 1929</a></li>
+            <li><a href="">Era Vargas</a></li>
+          </ul>
+        </li>
+        <li id="link4" onclick="dropItemMenu(this)"><span><a href="#"> Simulados</a></span>
+          <ul id="dropMobile">
+            <li><a href="">Enem</a></li>
+            <li><a href="">Unicamp</a></li>
+            <li><a href="">Fuvest</a></li>
+          </ul>
+
+
+        </li>
+      </ul>
+    </nav>
+
+  </div>
+
+
+  <div id="team">
+    <img src="./IMG/Coliseu.jpg" alt="">
+  </div>
+
+  <div id="videos">
+    <div class="visor">
+      <div id="frame" style="background: no-repeat url(./IMG/Aulas/Renascimento.jpg) center/cover;"></div>
+
+
+
+      <div id="inst">
+        <h1 id="titleFrame">Renascimento</h1>
+        <p id="paraFrame">O renascimento é um marco histórico onde houve uma revolução no modo de pensar da sociedade. O
+          movimento
+          resgata valores da cultura greco-romana e agora, ao invés de explicar tudo com a religião, a ciência começa a
+          aparecer, e assim, o antropocentrismo toma conta da sociedade neste momento.</p>
+      </div>
+    </div>
+    <div class="galery">
+
+      <div id="aula01" style="background: no-repeat url(./IMG/Aulas/o-grande-desfile.jpg) center/cover;
+      color: #fff;" onclick="change(this)">
+        <h1>Primeira Guerra Mundial</h1>
+      </div>
+      <div id="aula02" style="background: no-repeat url(./IMG/Aulas/Charge\ de\ Joseph\ Keppler.jpg) center/cover;
+      color: #000;" onclick="change(this)">
+        <h1>Crise de 1929</h1>
+      </div>
+      <div id="aula03" style="background: no-repeat url(./IMG/Aulas/maxresdefault.jpg) center/cover;
+      color: #fff;" onclick="change(this)">
+        <h1>Era Vargas</h1>
+      </div>
+    </div>
+  </div>
+  <div id="equipe">
+    <main class="conteiner">
+      <section id="pictures">
+        <h1 id="ide">Orientadores</h1>
+        <div class="carrossel">
+          <div id="pro_div1">
+            <img class="profile" src="./IMG/Idealizadores/adil.jpg" alt="Adil Soares">
+            <h1>Adil Soares</h1>
+            <h2>Orientador</h2>
+          </div>
+          <div id="pro_div2">
+            <img class="profile" src="./IMG/Idealizadores/Everton.jpg" alt="Everton Santos">
+            <h1>Everton Santos</h1>
+            <h2>Orientador</h2>
+          </div>
+
+          <div id="pro_div3">
+            <img class="profile" src="./IMG/Idealizadores/Leo.jpg" alt="Luan Silva">
+            <h1>Leonardo Lirussi</h1>
+            <h2>Orientador</h2>
+
+          </div>
+        </div>
+      </section>
+      <section id="pictures2">
+        <h1 id="ide1">Idealizadores</h1>
+        <div class="carrossel">
+          <div id="pro_div1">
+            <img class="profile" src="./IMG/Idealizadores/Hugo.jpg" alt="Hugo Oliveira">
+            <h1>Hugo Oliveira</h1>
+            <h2>Designer</h2>
+            <div class="SociaMedia">
+              <a href="https://www.instagram.com/hugooliveiradesigner/" target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram Hugo Oliveira">
+              </a>
+
+            </div>
+          </div>
+          <div id="pro_div2">
+            <img class="profile" src="./IMG/Idealizadores/Guh.jpg" alt="Gustavo Pereira">
+            <h1>Gustavo Pereira</h1>
+            <h2>Veterinario</h2>
+            <div class="SociaMedia">
+              <a href="https://www.instagram.com/gu_pereirah/" target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram Gustavo Pereira">
+              </a>
+
+            </div>
+          </div>
+          <div id="pro_div3">
+            <img class="profile" src="./IMG/Idealizadores/Vasco.jpg" alt="Gustavo Vasconcelos">
+            <h1>Gustavo Vasconcelos</h1>
+            <h2>Engenheiro Mecanico</h2>
+            <div class="SociaMedia">
+              <a href="https://www.instagram.com/yakuza__2k22/" target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram Gustavo Vasconcelos">
+              </a>
+              <a href="https://www.linkedin.com/in/gustavo-vasconcelos-416455145/" target="_blank">
+                <img id="linkedin" src="./IMG/SocialMedia/linkedin.png" alt="Linkedin Gustavo Vasconcelos">
+              </a>
+
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="carrossel">
+          <div id="pro_div1">
+            <img class="profile" src="./IMG/Idealizadores/Ale.jpg" alt="Alexandre">
+            <h1>Alexandre Araujo </h1>
+            <h2>Editor</h2>
+            <div class="SociaMedia">
+              <a href="https://www.instagram.com/ale_umcafe/" target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram Alexandre Araujo">
+              </a>
+              <a href="https://www.linkedin.com/in/alexandre-dos-santos-araujo-152a43140/" target="_blank">
+                <img id="linkedin" src="./IMG/SocialMedia/linkedin.png" alt="Linkedin Alexandre Araujo">
+              </a>
+            </div>
+          </div>
+          <div id="pro_div2">
+            <img class="profile" src="./IMG/Idealizadores/Filipe.jpg" alt="Filipe Barros">
+            <h1>Filipe Barros</h1>
+            <h2>Desenvolvedor Front End</h2>
+            <div class="SociaMedia">
+              <a href="https://www.instagram.com/filipe_barrosg/" target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram Filipe Barros">
+              </a>
+
+
+              <a href="https://www.linkedin.com/in/filipebarrosg/" target="_blank">
+                <img id="linkedin" src="./IMG/SocialMedia/linkedin.png" alt="Linkedin Filipe Barros">
+              </a>
+            </div>
+          </div>
+          <div id="pro_div3">
+            <img class="profile" src="./IMG/Idealizadores/Mamede.jpg" alt="Luan Silva">
+            <h1>David Mamede</h1>
+            <h2>Desenvolvedor Full Stack</h2>
+            <div class="SociaMedia">
+
+              <a href="https://www.instagram.com/david.mamede.77/?fbclid=IwAR208YSrMhd2nXwiJOukasmgq2AHlkpimLHneBv6dDVsf5Rfs-AzUOWG7KY"
+                target="_blank">
+                <img id="instagram" src="./IMG/SocialMedia/instagram.png" alt="Intagram David Mamede">
+              </a>
+              <a href="https://www.linkedin.com/in/david-pereira-mamede-b6142b148/" target="_Blank">
+                <img id="linkedin" src="./IMG/SocialMedia/linkedin.png" alt="Linkedin David Mamede">
+              </a>
+
+
+
+            </div>
+          </div>
+
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div id="institu">
+      <h1>Renderizando a História</h1>
+      <p>Um site desenvolvido pelos formandos da Etec de Francisco Morato, como projeto de TCC, afim de trazer mais
+        facilidades aos amantes de história que buscam por conteúdo de fácil entendimento pela internet.</p>
+    </div>
+    <div id="etec">
+      <h2>Apoio</h2>
+      <a href=""><img src="./IMG/Logo/logoETEC.png" alt=""></a>
+    </div>
+    <div id="mediaSocial">
+      <h2>Nossas Midias Sociais</h2>
+      <div>
+        <a href=""><img src="./IMG/SocialMedia/instagram.png" alt=""></a>
+        <a href=""><img src="./IMG/SocialMedia/linkedin.png" alt=""></a>
+        <a href=""><img src="./IMG/SocialMedia/whatsapp.png" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
