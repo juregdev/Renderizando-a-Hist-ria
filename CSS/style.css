@@ -21,7 +21,7 @@ body, html{
 
 header{
   width: 100vw;
-  height: 5rem;
+  height: 0rem;
   display:flex;
 }
 
@@ -31,6 +31,12 @@ top: 0.5rem;
 z-index: 1;
 }
 
+#menu nav{background: #fff;
+height: 3rem;
+margin-top: 7%;
+position: relative;
+border-radius: 4px;}
+
 #logo img{width: 60vw ;
     position: fixed;
     transition: 1s ease-in-out;
@@ -38,7 +44,8 @@ z-index: 1;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: 2;
+    z-index: 1;
+    
 
   }
 
@@ -55,7 +62,7 @@ z-index: 1;
 }
 #menu nav li {
   padding: 0 1rem;
-  height: 5rem;
+  height: 3rem;
   
 }
  
@@ -65,8 +72,8 @@ z-index: 1;
   font-size: 20px;
   font-weight: 700;
   position: relative;
-  top:50%;
-  padding-bottom: 1.5rem;
+  top:25%;
+  padding-bottom: 0.46rem;
   transition: .4s ease-in-out;
 
 }
@@ -86,7 +93,7 @@ z-index: 1;
 #menu nav ul li ul#drop {
   position: absolute;
   display:block;
-  margin:3.25rem 1rem 0 0;
+  margin:1.6rem 1rem 0 0;
   text-align: center;
   color: black;
   font-size: 20px;
@@ -112,7 +119,7 @@ z-index: 1;
 #menu nav ul li ul#drop01 {
   position: absolute;
   display:block;
-  margin:3.25rem 1rem 0 0;
+  margin:1.6rem 1rem 0 0;
   text-align: center;
   color: black;
   font-size: 20px;
@@ -238,7 +245,7 @@ color: black;
   #menuMobile, #burguer{display: none;}
   
 }
-
+#menuMobile nav ul#dropMobile, #menuMobile nav ul#drop01Mobile{margin-top: 3REM;}
 
 
 /*TEAM*/
@@ -300,6 +307,7 @@ display: block;
 }
 @media  screen and (max-width:1000px) {
   #menu{display: none;}
+  #logo img{z-index: 2;}
   .galery{display: block;}
   .galery div{
     width: 90%;

@@ -32,10 +32,7 @@ function test(){
     logo.style.left ='1rem'
     logo.style.transform = "translate(0,0)"
     screensize(logo)
-    link.style ="color:white"
-    link2.style ="color:white"
-    link3.style ="color:white"
-    link4.style ="color:white"
+   
  
   }   
     else{
@@ -43,21 +40,11 @@ function test(){
       logo.style.left =''
       logo.style.width = ''
       logo.style.transform = ""
-      link.style ="color:black"
-      link2.style ="color:black"
-      link3.style ="color:black"
-      link4.style ="color:black"
+      
       
     }
 
-    if(div.y < -(div.height-80)){
-      link.style ="color:black"
-      link2.style ="color:black"
-      link3.style ="color:black"
-      link4.style ="color:black"
-     
-  
-    }
+
 
   }
 
@@ -194,9 +181,6 @@ logo.style.top = "0"
   logo.style.transform = "translate(0,0)"
   body.style.overflow = "hidden"
   screensize(logo)
-  line1.style.background = "black"
-      line2.style.background = "black"
-      line3.style.background = "black"
 }
 
 }
